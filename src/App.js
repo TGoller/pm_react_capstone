@@ -25,7 +25,7 @@ class App extends Component {
 
         <div>
           <Switch>
-            <Route exact path={['/',"/policies"]} component={PoliciesList} />
+            <Route exact path={"/policies"} component={PoliciesList} />
             <Route exact path={"/policyAdd"} component={PolicyAdd} />
           </Switch>
         </div>
